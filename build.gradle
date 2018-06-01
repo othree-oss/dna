@@ -7,7 +7,7 @@ apply plugin: 'maven'
 apply plugin: 'signing'
 
 group='io.othree'
-archivesBaseName='akka-ok'
+archivesBaseName='dna'
 version = '1.0'
 
 apply from: 'publish.gradle'
