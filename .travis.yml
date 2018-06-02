@@ -21,7 +21,7 @@ deploy:
     -Psigning.password=${SIGNING_PASSWORD} -Psigning.keyId=${SIGNING_KEY_ID}"
   skip_cleanup: true
   on:
-    branch: 1.0
+    branch: 1.0.1
 notifications:
   slack:
     secure: UyGQ1a4JrEAkw7/SnAjUpespIlIF8SAmcte4VOqtHfu2OraBV3JOIe/J46DkxMCDxsszl7Oa1K5QmBBG+xrKZE+mc07o6dkYJNZIxpwOKWZweTqRRFtEJqadpby0UhMyX8N/+p04iUZd8qI02opu+0A61M/VRdds6G7i8OBJWW5qmGnf/OQY2vbuU8UUws94/pzT4eEeDq8ZSMeUddeYm9DFC94RHzkZkQCgKIe9WtU1oeQW0RBoCOEIN5sNDJ48lGu9poHJ7lDEa2Q6Fc1DQ7ZLg1hndUESkVdcHGvEVceMLeXyTFojV8mSAKHBtDegJcIsFzvTfNqqb6ljaAjZaisuOMqk9gebfQHVOJcgUJPkH0VLiqZd2FvF8ipuD7ZRn/USmgcvVefbF+bTJ6hvjq2OYcGGIMUJtQPnOG+9JfJe+MzoHREHLxwKq3Y/wzUgJzHkw5g1iTbhpFGcVLSM7XDJRp1jM2FFOBSjLJy9xAKThQLXO41b2Ib7FgUr0eJKa+oQrL8xO7h/8tB44QH9Ihhcokb8P4BAk+M6Dt1Ep7Qyfa/z9eZwI7l/y1rwJwseVj85FLW7wKVRBikSw+m0pJsMeJc1TZWcjy2s3YgMmChrho/ZRfM0fZQcgxvER6sX8Qi5wBmfBYtgRnz8lnG0s3uRHayAs80zRofaYzhjpJU=

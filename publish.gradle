@@ -35,7 +35,7 @@ if (isDeployable) {
                 }
 
                 pom.project {
-                    name 'a-ok'
+                    name 'dna'
                     packaging 'jar'
                     description 'Some akka test utility classes'
                     url 'https://github.com/othree-oss/dna'
